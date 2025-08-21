@@ -1,16 +1,63 @@
-# lottery_app
+# 🎰 Lottery App
 
-A new Flutter project.
+A Flutter-based mobile application that generates random lottery numbers or simulates a lottery draw. Built with a clean and user-friendly interface for a seamless experience.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- **Random Number Generation:** Generates unique, non-repeating lottery numbers for each draw.
+- **User-Friendly UI:** Simple and intuitive interface for easy interaction.
+- **Customizable Draws:** Select the number of digits or the range for your lottery numbers (e.g., 1-49).
+- **History Tracking:** View your previously generated numbers (if implemented).
+- **Cross-Platform:** Runs seamlessly on both Android and iOS devices.
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+!(https://github.com/user-attachments/assets/22b6cf99-4214-47c3-9f2b-2770e18b3cd6)
+!(https://github.com/user-attachments/assets/b9d2cd83-0010-4757-a82a-6d4e3265fb35)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Flutter SDK:** Ensure you have Flutter installed. If not, follow the [official installation guide](https://flutter.dev/docs/get-started/install).
+- **IDE:** Android Studio, IntelliJ IDEA, or VS Code with the Flutter plugin.
+- **Emulator/Device:** A running emulator or a physical device.
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/your-username/lottery_app.git
+    ```
+
+2.  **Navigate to the project directory**
+    ```bash
+    cd lottery_app
+    ```
+
+3.  **Install dependencies**
+    ```bash
+    flutter pub get
+    ```
+
+4.  **Run the application**
+    ```bash
+    flutter run
+    ```
+
+## 🛠️ Built With
+
+- [Flutter](https://flutter.dev/) - Google's UI toolkit for beautiful, natively compiled applications.
+- [Dart](https://dart.dev/) - The programming language used by Flutter.
+
+## 📁 Project Structure
+lib/
+├── main.dart # Application entry point
+├── models/ # Data models (e.g., LotteryDraw)
+├── services/ # Business logic (e.g., Number generator)
+├── widgets/ # Custom UI widgets
+└── screens/ # Full app screens (pages)
+assets/
+├── images/ # App images & icons
+└── fonts/ # Custom fonts
